@@ -57,12 +57,14 @@
 	<tr>
 		<td style="height:250px; background-color:#bfbfbf;" rowspan="2"><img src="image\intro.jpg" alt="Khuraizmi" width="160" height="215" style="border-radius:50%;"></td>
 		<td style="background-color:#f8f8f8;"><img src="image\banner.jpg" alt="Name and position"></td>
-		<td style="background-color:#f8f8f8;">
-			<a href="https://www.facebook.com/izmie.k/" target="_blank"><img src="image\facebook.jpg" alt="My Facebook" width="25" height="25"></a>
+		<td style="background-color:#f8f8f8; text-align:center">
+			<a href="https://www.facebook.com/izmie.k/" target="_blank"><span title="Khuraizmi's Facebook"><img src="image\facebook.jpg" alt="My Facebook" width="25" height="25"></span></a> <!---->
 			<br>
-			<a href="https://www.instagram.com/izmie.k/" target="_blank"><img src="image\instagram.jpg" alt="My Instagram" width="25" height="25"></a>
+			<a href="https://www.instagram.com/izmie.k/" target="_blank"><span title="Khuraizmi's Instagram"><img src="image\instagram.jpg" alt="My Instagram" width="25" height="25"></span></a> <!---->
 			<br>
-			<a href="https://www.linkedin.com/in/khuraizmi/" target="_blank"><img src="image\linkedin.png" alt="My Linkedin" width="25" height="25"></a>
+			<a href="https://www.linkedin.com/in/khuraizmi/" target="_blank"><span title="Khuraizmi's Linkedin"><img src="image\linkedin.png" alt="My Linkedin" width="25" height="25"></span></a> <!---->
+			<br>
+			<div class="rw-ui-container" data-title="pagerating"></div>
 		</td>
 	</tr>
 
@@ -102,6 +104,47 @@
 	</tr>
 
 </table>
+
+<script type="text/javascript">(function(d, t, e, m){
+    
+    // Async Rating-Widget initialization.
+    window.RW_Async_Init = function(){
+                
+        RW.init({
+            huid: "417131",
+            uid: "86e8b257681df683e58c6c34c58fd36f",
+            source: "website",
+            options: {
+                "advanced": {
+                    "layout": {
+                        "align": {
+                            "hor": "center",
+                            "ver": "bottom"
+                        }
+                    },
+                    "text": {
+                        "rateThis": "My page's rating"
+                    }
+                },
+                "size": "medium",
+                "style": "oxygen",
+                "isDummy": false
+            } 
+        });
+        RW.render();
+    };
+        // Append Rating-Widget JavaScript library.
+    var rw, s = d.getElementsByTagName(e)[0], id = "rw-js",
+        l = d.location, ck = "Y" + t.getFullYear() + 
+        "M" + t.getMonth() + "D" + t.getDate(), p = l.protocol,
+        f = ((l.search.indexOf("DBG=") > -1) ? "" : ".min"),
+        a = ("https:" == p ? "secure." + m + "js/" : "js." + m);
+    if (d.getElementById(id)) return;              
+    rw = d.createElement(e);
+    rw.id = id; rw.async = true; rw.type = "text/javascript";
+    rw.src = p + "//" + a + "external" + f + ".js?ck=" + ck;
+    s.parentNode.insertBefore(rw, s);
+    }(document, new Date(), "script", "rating-widget.com/"));</script>
 
 </body>
 
