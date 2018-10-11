@@ -6,12 +6,27 @@
 	<meta name="description" content="e-Portfolio Khuraizmi">
 	<meta name="keywords" content="khuraizmi">
 	<meta name="author" content="khuraizmi">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
   
 	<link rel="shortcut icon" href="image\favicon.ico" type="image/x-icon"> <!---->
 	<link rel="icon" href="image\favicon.ico" type="image/x-icon"> <!---->
-	
+
 	<style>
+		.vid-border{
+		  position: relative;
+		  height: 190px;
+		  width: 190px;
+		  border: 5px ridge #8c8c8c;
+		  overflow: hidden;
+		}
+		#vid {
+		  position: absolute;
+		  top:-5px;
+		  left:-5px;
+		  height: 200px;
+		  width: 200px;
+		}
+		
 		table, tr, td {
 			border:0px solid black;
 			width:1280px;
@@ -57,29 +72,28 @@
 
 <table>
 
-	<tr>
+	<tr> <!---->
 		<td style="height:250px; background-color:#bfbfbf;" rowspan="2"><img src="image\intro.jpg" alt="Khuraizmi" width="160" height="215" style="border-radius:50%;"></td>
 		<td style="background-color:#f8f8f8;"><img src="image\banner.jpg" alt="Name and position"></td>
 		<td style="background-color:#f8f8f8; text-align:center">
-			<a href="https://www.facebook.com/izmie.k/" target="_blank"><span title="Khuraizmi's Facebook"><img src="image\facebook.jpg" alt="My Facebook" width="25" height="25"></span></a> <!---->
+			<a href="https://www.facebook.com/izmie.k/" target="_blank"><span title="Khuraizmi's Facebook"><img src="image\facebook.jpg" alt="My Facebook" width="25" height="25"></span></a>
 			<br>
-			<a href="https://www.instagram.com/izmie.k/" target="_blank"><span title="Khuraizmi's Instagram"><img src="image\instagram.jpg" alt="My Instagram" width="25" height="25"></span></a> <!---->
+			<a href="https://www.instagram.com/izmie.k/" target="_blank"><span title="Khuraizmi's Instagram"><img src="image\instagram.jpg" alt="My Instagram" width="25" height="25"></span></a>
 			<br>
-			<a href="https://www.linkedin.com/in/khuraizmi/" target="_blank"><span title="Khuraizmi's Linkedin"><img src="image\linkedin.png" alt="My Linkedin" width="25" height="25"></span></a> <!---->
+			<a href="https://www.linkedin.com/in/khuraizmi/" target="_blank"><span title="Khuraizmi's Linkedin"><img src="image\linkedin.png" alt="My Linkedin" width="25" height="25"></span></a>
 			<br>
 			<div class="rw-ui-container" data-title="pagerating1"></div>
 		</td>
 	</tr>
 
 	<tr>
-		<td style="height:50px; background-color:#f8f8f8; text-align:center;" colspan="2">
+		<td style="height:50px; background-color:#f8f8f8; text-align:center;" colspan="2"> <!---->
 			<nav>
-				<a href="index.html"><b>Intro</b></a>&nbsp;&nbsp;&nbsp;
-				<a href="particulars.html"><b>Particulars</b></a>&nbsp;&nbsp;&nbsp;
-				<a href="education.html"><b>Education</b></a>&nbsp;&nbsp;&nbsp;
-				<a href="certification.html"><b>Certification</b></a>&nbsp;&nbsp;&nbsp;
-				<a href="employment.html"><b>Employment</b></a>&nbsp;&nbsp;&nbsp;
-				<a href="projects.html"><b>Projects</b></a>&nbsp;&nbsp;&nbsp;
+				<span title="Brief self-introduction"><a href="index.html"><b>Intro</b></a></span>&nbsp;&nbsp;&nbsp;
+				<span title="Basic personal information"><a href="particulars.html"><b>Particulars</b></a></span>&nbsp;&nbsp;&nbsp;
+				<span title="Educational qualifications"><a href="education.html"><b>Education</b></a></span>&nbsp;&nbsp;&nbsp;
+				<span title="Carrier history"><a href="carrier.html"><b>Carrier</b></a></span>&nbsp;&nbsp;&nbsp;
+				<span title="For enquiries or feedback"><a href="contact me.html"><b>Contact Me</b></a></span>&nbsp;&nbsp;&nbsp;
 			</nav>
 		</td>
 	</tr>
@@ -89,61 +103,85 @@
 			<h1 style="color:#ffa31a;">Intro</h1>
 			<h5 style="color:#d9d9d9;">Brief self-introduction</h5>
 		</td>
-		<td style="height:300px; background-color:#bfbfbf; font-family:Arial; font-size:14px; text-align:center;" colspan="2">
-			<p style="color:#595959;"><b>An experienced System Support Engineer with a demonstrated history<br>of working in the retail, F&B, and cinema industry.<br><br>Specializes in Windows Server and SQL database administration as well as Point of Sales (POS) system.<br><br>Ambitious program and project management professional graduated from Kolej Profesional MARA<br>in Business Information Technology.</b></p>
+		<td style="height:292px; background-color:#bfbfbf; font-family:Arial; font-size:14px; text-align:center;">
+			<p style="color:#595959;">
+			<b>Hello and welcome to my e-Portfolio. This is my first-ever<br>web project and it is dedicated to showcase myself to everyone.
+			<br><br>I have been in the IT industry for more than 10 years, specializing in<br>Windows Server, SQL Database, and Point of Sale (POS) system.
+			<br><br>Feel free to browse my page and don't forget to rate it. You may use<br>the chat box right below of the page or the feedback form to contact me. 
+			<br><br>Thank you for visiting my page and do visit again. Have a nice day. Cheers!</b>
+			<span title="Cheers!"><img src="animation\cheers.gif" alt="cheers emoticon" width="25" height="25" style="float:right;"></span>
+			</p>
+		</td>
+		<td style="background-color:#bfbfbf;">
+			<div class="vid-border">
+				<span title="My wife and me :)"><video id="vid" controls autoplay loop muted>
+					<source src="video/khuraizmi.mp4" type="video/mp4"></source>
+				</video></span>
+			</div>
 		</td>
 	</tr>
 
-	<tr>
-		<td style="background-color:#8c8c8c; font-family:Arial; font-size:10px; text-align:right; padding:15px;">Copyright &copy; 2018 Khuraizmi Adlil Bin Kamil</td>
-		<td style="height:50px; background-color:#bfbfbf; font-family:Arial; font-size:10px; text-align:center;" colspan="2">Best viewed with<br><br><img src="image\chrome.png" alt="Chrome" width="15" height="15"></td>
+	<tr> <!---->
+		<td style="background-color:#8c8c8c; text-align:center;">
+			<span title="Bored? Click play :)"><audio controls loop style="width:200px;">
+			  <source src="audio/bgm.mp3" type="audio/mpeg">
+			</audio></span>
+		</td>
+		<td style="height:50px; background-color:#bfbfbf; font-family:Arial; font-size:10px; text-align:center;" colspan="2">Copyright &copy; 2018 Khuraizmi Adlil Bin Kamil | Best viewed with Google Chrome | Last update: 11 Oct 2018 </td>
 	</tr>
 
 </table>
 
-<script type="text/javascript">(function(d, t, e, m){
-    
-    // Async Rating-Widget initialization.
-    window.RW_Async_Init = function(){
-                
-        RW.init({
-            huid: "417131",
-            uid: "86e8b257681df683e58c6c34c58fd36f",
-            source: "website",
-            options: {
-                "advanced": {
-                    "layout": {
-                        "align": {
-                            "hor": "center",
-                            "ver": "bottom"
-                        }
-                    },
-                    "font": {
-                        "type": "arial"
-                    },
-                    "text": {
-                        "rateThis": "My page's rating"
-                    }
-                },
-                "size": "medium",
-                "style": "oxygen",
-                "isDummy": false
-            } 
-        });
-        RW.render();
-    };
-        // Append Rating-Widget JavaScript library.
-    var rw, s = d.getElementsByTagName(e)[0], id = "rw-js",
-        l = d.location, ck = "Y" + t.getFullYear() + 
-        "M" + t.getMonth() + "D" + t.getDate(), p = l.protocol,
-        f = ((l.search.indexOf("DBG=") > -1) ? "" : ".min"),
-        a = ("https:" == p ? "secure." + m + "js/" : "js." + m);
-    if (d.getElementById(id)) return;              
-    rw = d.createElement(e);
-    rw.id = id; rw.async = true; rw.type = "text/javascript";
-    rw.src = p + "//" + a + "external" + f + ".js?ck=" + ck;
-    s.parentNode.insertBefore(rw, s);
-    }(document, new Date(), "script", "rating-widget.com/"));</script>
+	<!--mylivechat-->
+	<script type="text/javascript">function add_chatinline(){var hccid=85060823;var nt=document.createElement("script");nt.async=true;nt.src="https://mylivechat.com/chatinline.aspx?hccid="+hccid;var ct=document.getElementsByTagName("script")[0];ct.parentNode.insertBefore(nt,ct);}
+	add_chatinline(); </script> <!---->
+	<!--mylivechat-->
+	
+	<!--ratingwidget-->
+	<script type="text/javascript">(function(d, t, e, m){
+		
+		// Async Rating-Widget initialization.
+		window.RW_Async_Init = function(){
+					
+			RW.init({
+				huid: "417131",
+				uid: "86e8b257681df683e58c6c34c58fd36f",
+				source: "website",
+				options: {
+					"advanced": {
+						"layout": {
+							"align": {
+								"hor": "center",
+								"ver": "bottom"
+							}
+						},
+						"font": {
+							"type": "arial"
+						},
+						"text": {
+							"rateThis": "My page's rating"
+						}
+					},
+					"size": "medium",
+					"style": "oxygen",
+					"isDummy": false
+				} 
+			});
+			RW.render();
+		};
+			// Append Rating-Widget JavaScript library.
+		var rw, s = d.getElementsByTagName(e)[0], id = "rw-js",
+			l = d.location, ck = "Y" + t.getFullYear() + 
+			"M" + t.getMonth() + "D" + t.getDate(), p = l.protocol,
+			f = ((l.search.indexOf("DBG=") > -1) ? "" : ".min"),
+			a = ("https:" == p ? "secure." + m + "js/" : "js." + m);
+		if (d.getElementById(id)) return;              
+		rw = d.createElement(e);
+		rw.id = id; rw.async = true; rw.type = "text/javascript";
+		rw.src = p + "//" + a + "external" + f + ".js?ck=" + ck;
+		s.parentNode.insertBefore(rw, s);
+		}(document, new Date(), "script", "rating-widget.com/"));</script>
+	<!--ratingwidget-->
 	
 </body>
 
